@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (result != null) {
             //if qrcode has nothing in it
             if (result.getContents() == null) {
-                Toast.makeText(this, "Result Not Found", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Hasil Tidak Ditemukan", Toast.LENGTH_LONG).show();
             } else {
                 //if qr contains data
                 try {
